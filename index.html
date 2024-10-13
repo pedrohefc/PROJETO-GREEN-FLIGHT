@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREEN FLIGHT</title>
+    <link rel="stylesheet" href="./LIB/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 pacifico marron fs-1">Green Flight</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold active" href="">
+                            <i class="me-1 bi bi-people"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link marron fw-bold" href="">
+                            <i class="me-1 bi bi-compass"></i>
+                            Desperte a aventura
+                        </a>
+                        <!-- Aqui vamos mostras as opçoes naturais que existem como florestas e montanhas -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link marron fw-bold" href="">
+                            <i class="me-1 bi bi-airplane"></i>
+                            Destinos semanais
+                        </a>
+                        <!-- Barra lateral se aprofundando sobre os destinos em cada continente  -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link marron fw-bold" href="">
+                            <i class="me-1 bi bi-telephone"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-nos">
+            <div class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="8000">
+                        <img src="./IMAGENS/COPACABANA.jpg" alt="Praia de Copacabana">
+                        <div class="carousel-caption">
+                            <h5 class="branco">COPACABANA - BRASIL</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="8000">
+                        <img src="./IMAGENS/DESERTO SAARA.jpg" alt="Deserto do saara">
+                        <div class="carousel-caption">
+                            <h5 class="branco">DESERTO DO SAARA - NORTE DA AFRICA</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="8000">
+                        <img src="./IMAGENS/GELEIRA VATNAJOKULL - ISLÂNDIA.jpg" alt="Geleira vatnajokull">
+                        <div class="carousel-caption">
+                            <h5 class="branco">GELEIRA VATNAJOKULL - ISLÂNDIA</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="8000">
+                        <img src="./IMAGENS/MILFORD SOUND - NOVA ZELANDIA.jpg" alt="Milford sound">
+                        <div class="carousel-caption">
+                            <h5 class="branco">MILFORD SOUND - NOVA ZELANDIA</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="8000">
+                        <img src="./IMAGENS/TAMAN NEGARA - MALÁSIA.jpg" alt="Taman negara">
+                        <div class="carousel-caption">
+                            <h5 class="branco">TAWAN NEGARA - MALÁSIA</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="d-block w-100" src="./IMAGENS/SOBRE NOS.jpg" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="row">
+                                <h2 class="pacifico">Sobre <span>nós</span></h2>
+                                <p>
+                                    Somos apaixonados pela natureza e pelas aventuras que ela proporciona! Nosso objetivo é inspirar viajantes a explorar as maravilhas do mundo natural de forma autêntica, sustentável e segura.
+                                </p>
+                                <p>
+                                    Aqui, você encontrará dicas valiosas, roteiros detalhados e histórias reais de quem viveu momentos inesquecíveis em montanhas, praias, florestas e destinos remotos. Acreditamos que viajar é mais do que apenas visitar novos lugares—é se conectar com a natureza, com culturas locais e consigo mesmo.
+                                </p>
+                                <P>
+                                    Nossa equipe é formada por exploradores dedicados que já trilharam muitos dos caminhos que recomendamos. Com experiências em diversos tipos de aventuras ao ar livre, estamos aqui para guiar você nas suas próximas jornadas. Seja para uma caminhada tranquila em meio à floresta, um acampamento selvagem ou a busca por paisagens secretas, estamos prontos para ajudar você a planejar sua próxima escapada dos cenários urbanos.
+                                </P>
+                                <P>
+                                    Junte-se a nós e descubra o mundo além do asfalto!
+                                </P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="desperte-a-aventura" class="p-5">
+            <div class="container">
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#floresta" class="fw-bold text-start text-colored nav-link active">Floresta</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#montanha" class="fw-bold text-start text-colored nav-link">Montanha</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#praia" class="fw-bold text-start text-colored nav-link">Praia</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#deserto" class="fw-bold text-start text-colored nav-link">Deserto</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#geleira" class="fw-bold text-start text-colored nav-link">Geleiras</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="floresta">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/FLORESTA 1.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/FLORESTA 2.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100 my-4" src="./IMAGENS/FLORESTA 3.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100 my-4" src="./IMAGENS/FLORESTA 4.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/FLORESTA 5.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/FLORESTA 6.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>    
+                                    <div class="col-4 text-break">
+                                        <h4 class="pacifico mb-3">Desperte a aventura nas <br> <span>Florestas</span></h4>
+                                        <p>Sinta a energia vibrante da natureza ao adentrar as florestas mais encantadoras do planeta. Aqui, cada trilha é um convite para explorar o desconhecido, respirar o ar puro e se conectar com a fauna e flora que te cercam. Das florestas tropicais exuberantes às matas temperadas cobertas de névoa, há sempre algo mágico à espera. Deixe-se guiar pelos sons da vida selvagem, descubra cachoeiras escondidas e vivencie momentos únicos de paz e aventura. Seja caminhando entre árvores centenárias ou contemplando a biodiversidade ao seu redor, as florestas despertam o explorador em todos nós. Prepare-se para uma jornada que vai além do comum — onde a natureza é o seu melhor guia!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="montanha">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/MONTANHA 1.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/MONTANHA 2.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100 my-4" src="./IMAGENS/MONTANHA 3.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100 my-4" src="./IMAGENS/MONTANHA 4.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/MONTANHA 5.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/MONTANHA 6.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>    
+                                    <div class="col-md-4 text-break">
+                                        <h4 class="pacifico mb-3">Desperte a aventura nas <span>Montanhas</span></h4>
+                                        <p>Sinta a adrenalina ao conquistar altitudes desafiadoras e contemple vistas que tiram o fôlego. Nas montanhas, cada trilha é uma nova aventura, um desafio entre picos nevados e vales profundos. Explore a grandiosidade das cordilheiras, onde o céu encontra a terra e a natureza revela sua força em forma de paisagens dramáticas. Aqui, o vento frio no rosto e o silêncio das alturas criam uma sensação de liberdade única. Prepare-se para se conectar com o desconhecido e viver momentos de pura aventura nas alturas!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="praia">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/PRAIA 1.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/PRAIA 2.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100 my-4" src="./IMAGENS/PRAIA 3.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100 my-4" src="./IMAGENS/PRAIA 4.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/PRAIA 5.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/PRAIA 6.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>    
+                                    <div class="col-md-4 text-break">
+                                        <h4 class="pacifico mb-3">Desperte a aventura nas <br> <span>Praias</span></h4>
+                                        <p>Imagine-se de frente para o horizonte, onde o mar azul se encontra com a areia dourada. As praias são o destino perfeito para quem busca a combinação de relaxamento e aventura. Seja surfar nas ondas, explorar recifes de corais ou caminhar por praias desertas, o som do oceano é um convite para deixar a rotina para trás e viver o presente. Descubra enseadas escondidas, nade em águas cristalinas e conecte-se com a energia vibrante do litoral. Nas praias, a aventura é tão vasta quanto o mar!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="deserto">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/DESERTO 1.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/DESERTO 2.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100 my-4" src="./IMAGENS/DESERTO 3.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100 my-4" src="./IMAGENS/DESERTO 4.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/DESERTO 5.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/DESERTO 6.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>    
+                                    <div class="col-md-4 text-break">
+                                        <h4 class="pacifico mb-3">Desperte a aventura nos <br> <span>Desertos</span></h4>
+                                        <p>Os desertos são terras de mistério e beleza única, onde o silêncio é profundo e as paisagens, vastas. Sinta a imensidão das dunas douradas sob o céu aberto, e explore formações rochosas esculpidas pelo tempo. A cada passo, o deserto revela segredos ancestrais, desde o nascer do sol que pinta o horizonte de tons vibrantes até as noites estreladas que iluminam o vazio ao redor. Aqui, a aventura é crua e desafiante, perfeita para quem busca desbravar o desconhecido e se perder na serenidade do deserto.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="geleira">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/GELEIRA 1.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/GELEIRA 2.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100 my-4" src="./IMAGENS/GELEIRA 3.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100 my-4" src="./IMAGENS/GELEIRA 3.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/GELEIRA 5.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img class="d-block w-100" src="./IMAGENS/GELEIRA 6.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>    
+                                    <div class="col-4 text-break">
+                                        <h4 class="pacifico mb-3">Desperte a aventura nas <br> <span>Geleiras</span></h4>
+                                        <p>Desafie-se nas terras geladas, onde as geleiras se estendem em paisagens de tirar o fôlego. Entre montanhas cobertas de neve e lagos de águas cristalinas, as geleiras oferecem um cenário de aventura único e impressionante. Caminhe por trilhas glaciais, explore cavernas de gelo e sinta o ar fresco e puro que só esses ambientes remotos podem proporcionar. A cada passo, descubra a força da natureza em sua forma mais extrema e vivencie uma jornada épica em meio ao gelo e ao silêncio absoluto das grandes geleiras.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destinos-semanais" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#americas" class="fw-bold text-start text-colored nav-link active">Américas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#africa" class="fw-bold text-start text-colored nav-link">África</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#europa" class="fw-bold text-start text-colored nav-link">Europa</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#asia" class="fw-bold text-start text-colored nav-link">Ásia</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#oceania" class="fw-bold text-start text-colored nav-link">Oceania</button>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="americas">
+                                <div>
+                                    <div class="row">   
+                                        <h2 class="pacifico text-center mb-2">Destinos semanais <br><span>Brasil</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img src="./IMAGENS/AMERICAS 1.jpg" alt="">
+                                            <h5 class="text-center pacifico my-1">Floresta amazônica (Amazonas)</h5>
+                                            <p>
+                                                A maior floresta tropical do planeta é um paraíso para ecoturistas e aventureiros. A Amazônia é rica em biodiversidade, com milhares de espécies de animais e plantas. Explorar essa região permite experiências únicas, como navegar pelos rios, visitar comunidades indígenas e realizar trilhas em meio à mata densa. É um verdadeiro mergulho na natureza selvagem.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="https://media.staticontent.com/media/pictures/b3a287af-a9ae-485d-8c06-9bd8116f9224" alt="">
+                                            <h5 class="text-center pacifico my-1">Fernando de Noronha (Pernambuco)</h5>
+                                            <p>
+                                                Um arquipélago paradisíaco com praias de águas cristalinas e vida marinha rica, Fernando de Noronha é um destino imperdível para mergulho e ecoturismo. Suas praias, como a Baía do Sancho e a Praia do Leão, estão entre as mais bonitas do mundo. O turismo sustentável é uma prioridade, garantindo a preservação desse santuário ecológico.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 my-4">
+                                            <img src="https://static.todamateria.com.br/upload/bi/om/biomapantanal-0-cke.jpg" alt="">
+                                            <h5 class="text-center pacifico my-1">Pantanal (Mato Grosso e Mato Grosso do Sul)</h5>
+                                            <p>
+                                                Considerado a maior planície alagada do mundo, o Pantanal é um dos ecossistemas mais ricos em biodiversidade. A região é famosa por seus safáris fotográficos, que permitem observar de perto a fauna exuberante, incluindo onças-pintadas, araras, jacarés e capivaras. Além disso, o Pantanal é um ótimo destino para pesca esportiva e passeios de barco.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 my-4">
+                                            <img src="https://www.gov.br/turismo/pt-br/assuntos/noticias/parque-nacional-dos-lencois-maranhenses-e-reconhecido-como-patrimonio-natural-da-humanidade/CrditoguilhermespenglerShutterstock.png/@@images/d7321b56-5574-4cb0-8fbc-65f91347e91f.png" alt="">
+                                            <h5 class="text-center pacifico my-1">Lençóis Maranhenses (Maranhão)</h5>
+                                            <p>
+                                                Um dos cenários mais exóticos do Brasil, os Lençóis Maranhenses oferecem uma paisagem única: um vasto deserto de dunas de areia branca intercaladas por lagoas de águas cristalinas. Entre os meses de junho e setembro, após o período de chuvas, as lagoas estão cheias e perfeitas para banho, criando um espetáculo visual incrível.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="./IMAGENS/AMERICA 5.jpg" alt="">
+                                            <h5 class="text-center pacifico my-1">Chapada Diamantina (Bahia)</h5>
+                                            <p>
+                                                A Chapada Diamantina é um dos principais destinos de ecoturismo do Brasil. Com paisagens de montanhas, cachoeiras, grutas e vales profundos, o parque nacional é ideal para trilhas, banhos em cachoeiras e aventuras ao ar livre. A Cachoeira da Fumaça, o Vale do Pati e a Gruta da Pratinha são apenas algumas das atrações imperdíveis desse local.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="./IMAGENS/AMERICA 6.jpg" alt="">
+                                            <h5 class="text-center pacifico my-1">Cataratas do Iguaçu (Paraná)</h5>
+                                            <p>
+                                                Localizadas no Parque Nacional do Iguaçu, as Cataratas são uma das maiores e mais impressionantes quedas d'água do mundo, com 275 saltos que formam um espetáculo natural de tirar o fôlego. A força das águas e a exuberante vegetação ao redor fazem deste um destino obrigatório para os amantes da natureza. O parque é também Patrimônio Natural da Humanidade pela UNESCO.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane" id="africa">
+                                    <div>
+                                        <div class="row">   
+                                            <h2 class="pacifico text-center mb-2">Destinos semanais <br><span>África</span></h2>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="https://www.steppestravel.com/app/uploads/2019/06/migration-serengeti-tanzania-1024x768.jpg" alt="">
+                                                <h5 class="text-center pacifico my-1">Serengeti (Tanzânia)</h5>
+                                                <p>
+                                                    O Parque Nacional do Serengeti é mundialmente famoso por suas vastas planícies e pela Grande Migração, quando milhões de gnus, zebras e outros animais cruzam o território em busca de pastagens. É um dos melhores destinos de safári do mundo, oferecendo a chance de ver os “Big Five” (leão, elefante, búfalo, leopardo e rinoceronte) em seu habitat natural. O cenário impressiona pela imensidão e a vida selvagem abundante.                                            </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="https://www.qualviagem.com.br/wp-content/uploads/2016/12/iStock-546466314-e1481651146364.jpg" alt="">
+                                                <h5 class="text-center pacifico my-1">Cataratas Vitória (Zâmbia e Zimbábue)</h5>
+                                                <p>
+                                                    As Cataratas Vitória são uma das maiores quedas d’água do planeta e uma das Sete Maravilhas Naturais do Mundo. Localizadas na fronteira entre Zâmbia e Zimbábue, as águas do rio Zambeze caem de uma altura de 108 metros, criando uma névoa visível a quilômetros de distância. Além da vista espetacular, os visitantes podem praticar atividades de aventura, como rafting e bungee jumping.                                        </div>
+                                            <div class="col-md-6 my-4">
+                                                <img src="https://blog.viin.com.br/wp-content/uploads/2022/04/stephan-bechert-xQWelDCacZE-unsplash-1024x683.jpg" alt="">
+                                                <h5 class="text-center pacifico my-1">Monte Kilimanjaro (Tanzânia)</h5>
+                                                <p>
+                                                    O Monte Kilimanjaro, o ponto mais alto da África, é um destino icônico para alpinistas e aventureiros. Com seus 5.895 metros de altura, o Kilimanjaro é uma das montanhas mais acessíveis do mundo para quem quer fazer trekking. A subida passa por diferentes tipos de vegetação, desde florestas tropicais até a tundra alpina, e a vista do topo é uma recompensa inesquecível.                                        </div>
+                                            <div class="col-md-6 my-4">
+                                                <img src="https://media.istockphoto.com/id/648362800/pt/foto/o-delta-do-okavango-botswana.jpg?s=612x612&w=0&k=20&c=IgfQh9cNR5-8ie3d5_g0xn7u8BJh7yvp1G4h9GYstbE=" alt="">
+                                                <h5 class="text-center pacifico my-1">Delta do Okavango (Botsuana)</h5>
+                                                <p>
+                                                    O Delta do Okavango é uma das maravilhas naturais mais extraordinárias do mundo. Este vasto e exuberante sistema de pântanos e canais, alimentado pelas águas do rio Okavango, é uma joia no coração do deserto do Kalahari. Famoso pela rica biodiversidade, o delta é o lar de elefantes, hipopótamos, leões, girafas e uma infinidade de espécies de aves. Safáris de barco são uma das formas mais populares de explorar esse ecossistema.                                        </div>
+                                            <div class="col-md-6">
+                                                <img src="https://images.ecycle.com.br/wp-content/uploads/2021/05/28181429/carlos-leret-kiYzznir-uo-unsplash-scaled.jpg" alt="">
+                                                <h5 class="text-center pacifico my-1">Deserto do Saara (Norte da África)</h5>
+                                                <p>
+                                                    O Saara é o maior deserto quente do mundo e se estende por vários países do norte da África, como Marrocos, Argélia, Tunísia e Egito. Com suas vastas dunas de areia dourada, oásis escondidos e céus estrelados, o Saara oferece uma experiência única. Passeios de camelo, acampamentos no deserto e visitas a aldeias berberes são algumas das atrações para quem busca aventuras no meio de uma das paisagens mais icônicas do planeta.                                        </div>
+                                            <div class="col-md-6">
+                                                <img src="https://imaginanaviagem.com/wp-content/uploads/2018/07/Table-Mountain-Cape-Town-Capa-1-1263x560.jpg" alt="">
+                                                <h5 class="text-center pacifico my-1">Table Mountain (África do Sul)</h5>
+                                                <p>
+                                                    A Table Mountain é uma das paisagens mais reconhecíveis da África, localizada na Cidade do Cabo. Este planalto, com sua forma achatada, oferece vistas deslumbrantes da cidade e do Oceano Atlântico. Para os aventureiros, a subida pode ser feita a pé por trilhas desafiadoras ou de teleférico, e o topo é o lar de uma incrível diversidade de flora e fauna endêmicas. Ao redor, o Parque Nacional da Table Mountain oferece ainda mais trilhas e belezas naturais.
+                                                </p>    
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane" id="europa">
+                                        <div>
+                                            <div class="row">   
+                                                <h2 class="pacifico text-center mb-2">Destinos semanais <br><span>Europa</span></h2>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Plitvice10.jpg/640px-Plitvice10.jpg" alt="">
+                                                    <h5 class="text-center pacifico my-1">Parque Nacional de Plitvice (Croácia)</h5>
+                                                    <p>
+                                                        Localizado no coração da Croácia, o Parque Nacional de Plitvice é famoso por seus lagos cristalinos e impressionantes cascatas que parecem saídas de um conto de fadas. Com uma rede de passarelas que levam os visitantes a percorrerem as belezas do parque sem interferir na natureza, é o destino perfeito para quem busca um refúgio sereno em meio à vegetação e águas azul-turquesa.
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <img src="https://turismo.eurodicas.com.br/wp-content/uploads/2019/07/fiordes-da-noruega.jpg" alt="">
+                                                    <h5 class="text-center pacifico my-1">Fiordes da Noruega (Noruega)</h5>
+                                                    <p>
+                                                        Os fiordes da Noruega são formações naturais espetaculares, onde montanhas escarpadas mergulham diretamente em águas profundas. O mais famoso deles, o Geirangerfjord, é Patrimônio Mundial da UNESCO e encanta com suas cachoeiras majestosas, vales verdejantes e vilarejos pitorescos. Para os aventureiros, há passeios de barco, trilhas deslumbrantes e até a chance de ver a aurora boreal.
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-6 my-4">
+                                                    <img src="https://www.france-voyage.com/visuals/photos/parque-nacional-pireneus-27705_w600.webp" alt="">
+                                                    <h5 class="text-center pacifico my-1">Parque Nacional dos Pirineus (França e Espanha)</h5>
+                                                    <p>
+                                                        Entre a França e a Espanha, os Pirineus oferecem montanhas majestosas, vales profundos e uma rica biodiversidade. O Parque Nacional dos Pirineus é um paraíso para os amantes de trilhas, com caminhos que levam a lagos alpinos, picos cobertos de neve e paisagens deslumbrantes. Durante o verão, as flores selvagens colorem as encostas, enquanto no inverno, o parque se transforma em um destino popular para esquiadores.
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-6 my-4">
+                                                    <img src="https://www.civitatis.com/blog/wp-content/uploads/2022/05/islas-lofoten.jpg" alt="">
+                                                    <h5 class="text-center pacifico my-1">Ilhas Lofoten (Noruega)</h5>
+                                                    <p>
+                                                        As Ilhas Lofoten, na Noruega, são conhecidas por suas paisagens dramáticas de montanhas íngremes e vilarejos de pescadores cercados por águas cristalinas. É um destino espetacular para quem gosta de atividades ao ar livre, como escalada, caiaque e ciclismo. No inverno, as Lofoten oferecem um dos melhores locais para observar as mágicas luzes da aurora boreal.
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <img src="https://casalnomade.com/wp-content/uploads/2016/07/Parque-Nacional-da-Su%C3%AD%C3%A7a-Sax%C3%B4nica-1.jpg" alt="">
+                                                    <h5 class="text-center pacifico my-1">Parque Nacional da Suíça Saxônica (Alemanha)</h5>
+                                                    <p>
+                                                        Localizado na fronteira entre a Alemanha e a República Tcheca, o Parque Nacional da Suíça Saxônica é famoso por suas formações rochosas únicas, chamadas "Bastei". Este parque combina florestas densas, cânions profundos e picos rochosos que oferecem vistas impressionantes sobre o rio Elba. É o destino perfeito para quem ama trilhas, escaladas e belas paisagens naturais.
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <img src="https://existeumlugarnomundo.com.br/wp-content/uploads/2022/09/Lago-de-Bled-ilha.jpg" alt="">
+                                                    <h5 class="text-center pacifico my-1">Lago Bled (Eslovênia)</h5>
+                                                    <p>
+                                                        O Lago Bled, na Eslovênia, é um dos cartões-postais mais icônicos da Europa. Cercado por montanhas e florestas, suas águas azul-turquesa são embelezadas por uma pequena ilha no centro, onde se encontra uma encantadora igreja. O cenário de conto de fadas atrai visitantes que podem explorar a região caminhando ao redor do lago, fazer passeios de barco ou subir ao Castelo de Bled para uma vista panorâmica espetacular.
+                                                    </p>    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-content">
+                                        <div class="tab-pane" id="asia">
+                                            <div>
+                                                <div class="row">   
+                                                    <h2 class="pacifico text-center mb-2">Destinos semanais <br><span>Ásia</span></h2>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <img src="https://hypescience.com/wp-content/uploads/2011/07/everest7-e1311341282798.jpg" alt="">
+                                                        <h5 class="text-center pacifico my-1">Monte Everest (Nepal)</h5>
+                                                        <p>
+                                                            O Monte Everest, a montanha mais alta do mundo, é um destino icônico para os amantes de montanha e aventura. Localizado na cordilheira do Himalaia, o Everest oferece vistas espetaculares e desafios para os alpinistas. Para aqueles que preferem uma experiência mais tranquila, a trilha até o campo base do Everest proporciona uma jornada incrível através de vilarejos pitorescos e paisagens de montanha de tirar o fôlego.
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <img src="https://f.i.uol.com.br/fotografia/2018/09/25/15379133595baab20fe4dab_1537913359_3x2_md.jpg" alt="">
+                                                        <h5 class="text-center pacifico my-1">Baía de Ha Long (Vietnã)</h5>
+                                                        <p>
+                                                            A Baía de Ha Long é famosa por suas impressionantes formações rochosas de calcário que emergem das águas verde-esmeralda do Golfo de Tonkin. Patrimônio Mundial da UNESCO, a baía oferece passeios de barco, caiaque e oportunidades para explorar cavernas ocultas. É um lugar ideal para relaxar e apreciar a beleza natural que a natureza criou ao longo de milhões de anos.
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-md-6 my-4">
+                                                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/cc/4a/d7/komodo-adala-sala-satu.jpg?w=1200&h=-1&s=1" alt="">
+                                                        <h5 class="text-center pacifico my-1">Parque Nacional de Komodo (Indonésia)</h5>
+                                                        <p>
+                                                            O Parque Nacional de Komodo, conhecido por seus famosos dragões de Komodo, é um destino incrível para os amantes da vida selvagem e do mergulho. Além de observar esses magníficos répteis, os visitantes podem explorar praias de areia rosa e rica biodiversidade marinha. O parque é uma verdadeira joia para quem busca aventuras em um ambiente natural único.
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-md-6 my-4">
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1_zhangjiajie_huangshizhai_wulingyuan_panorama_2012.jpg/1200px-1_zhangjiajie_huangshizhai_wulingyuan_panorama_2012.jpg" alt="">
+                                                        <h5 class="text-center pacifico my-1">Parque Nacional de Zhangjiajie (China)</h5>
+                                                        <p>
+                                                            O Parque Nacional de Zhangjiajie é conhecido por suas impressionantes colunas de arenito que se elevam em direção ao céu. Essas formações inspiraram os cenários do filme "Avatar". Os visitantes podem explorar trilhas e plataformas de observação que oferecem vistas panorâmicas, além de um emocionante teleférico que proporciona uma perspectiva única da paisagem.
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <img src="https://cdn-clubecandeias.s3.sa-east-1.amazonaws.com/uploads/2021/08/jog-india-clube-candeias.jpg?ssl=1" alt="">
+                                                        <h5 class="text-center pacifico my-1">Cascatas de Jog (Índia)</h5>
+                                                        <p>
+                                                            Localizadas no estado de Karnataka, as Cascatas de Jog são uma das mais altas quedas d'água da Índia, caindo a impressionantes 253 metros. A beleza dessas cascatas é especialmente majestosa durante a estação das monções, quando a água flui com força. A região ao redor oferece oportunidades para caminhadas e um vislumbre da rica flora e fauna da Índia.
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6b/72/e9.jpg" alt="">
+                                                        <h5 class="text-center pacifico my-1">Parque Nacional de Bukhansan (Coreia do Sul)</h5>
+                                                        <p>
+                                                            O Parque Nacional de Bukhansan, localizado nos arredores de Seul, é um oásis de natureza e tranquilidade. Com trilhas que levam a picos deslumbrantes, templos históricos e vistas panorâmicas da cidade, o parque é um destino popular tanto para os moradores quanto para os turistas. A diversidade de flora e fauna também torna o parque um lugar fascinante para os amantes da natureza.
+                                                        </p>    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-content">
+                                            <div class="tab-pane" id="oceania">
+                                                <div>
+                                                    <div class="row">   
+                                                        <h2 class="pacifico text-center mb-2">Destinos semanais <br><span>Oceania</span></h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <img src="https://vamosfugir.net.br/wp-content/uploads/2017/02/Great-Barrier-Reef-Flckr-creative-commons-Nathan-Hughes-Hamilton.jpg" alt="">
+                                                            <h5 class="text-center pacifico my-1">Grande Barreira de Corais (Austrália)</h5>
+                                                            <p>
+                                                                A Grande Barreira de Corais, Patrimônio Mundial da UNESCO, é o maior sistema de recifes de corais do mundo. Com uma diversidade incrível de vida marinha, é um destino perfeito para mergulho e snorkeling. Os visitantes podem explorar águas cristalinas, nadar entre peixes coloridos e descobrir ilhas tropicais, tornando a experiência inesquecível.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Uluru%2C_helicopter_view%2C_cropped.jpg" alt="">
+                                                            <h5 class="text-center pacifico my-1">Uluru, Ayers Rock(Austrália)</h5>
+                                                            <p>
+                                                                Uluru, também conhecido como Ayers Rock, é uma imponente formação rochosa localizada no deserto australiano. Este local sagrado para os povos indígenas aborígenes é conhecido por suas cores vibrantes que mudam ao longo do dia. Os visitantes podem explorar a área ao redor, aprender sobre a cultura aborígene e desfrutar de caminhadas que oferecem vistas deslumbrantes.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-6 my-4">
+                                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Milford_sound_Nouvelle_Z%C3%A9lande_03_mars_2005.jpg/640px-Milford_sound_Nouvelle_Z%C3%A9lande_03_mars_2005.jpg" alt="">
+                                                            <h5 class="text-center pacifico my-1">Milford Sound (Nova Zelândia)</h5>
+                                                            <p>
+                                                                Milford Sound, na Nova Zelândia, é um dos fiordes mais famosos do mundo. Com montanhas majestosas, cachoeiras impressionantes e uma rica vida selvagem, o local oferece passeios de barco e oportunidades para caminhadas em meio a uma paisagem de tirar o fôlego. O som é um paraíso para os amantes da natureza e da fotografia.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-6 my-4">
+                                                            <img src="https://pegadasnaestrada.com.br/wp-content/uploads/2017/07/IMG_5310.JPG.jpg" alt="">
+                                                            <h5 class="text-center pacifico my-1">Parque Nacional Tongariro (Nova Zelândia)</h5>
+                                                            <p>
+                                                                O Parque Nacional Tongariro, Patrimônio Mundial da UNESCO, é conhecido por suas paisagens vulcânicas e trilhas deslumbrantes. O famoso Tongariro Alpine Crossing é uma das melhores caminhadas da Nova Zelândia, levando os visitantes por lagos de crateras, fontes termais e vistas panorâmicas. A rica diversidade ecológica do parque também oferece uma experiência única para os amantes da natureza.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <img src="https://vamosfugir.net.br/wp-content/uploads/2017/04/Whitehaven-Beach-Australia-1.jpg" alt="">
+                                                            <h5 class="text-center pacifico my-1">Praia de Whitehaven (Austrália)</h5>
+                                                            <p>
+                                                                A Praia de Whitehaven, localizada nas Ilhas Whitsunday, é famosa por suas areias brancas e finas e águas cristalinas. É um destino ideal para relaxar, nadar e praticar esportes aquáticos. Os visitantes podem explorar a praia em passeios de barco ou voos panorâmicos que oferecem vistas impressionantes da costa e das ilhas vizinhas.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <img src="https://novazelandiabrasil.com.br/wp-content/uploads/sites/3/2022/08/fiordland-2.jpg" alt="">
+                                                            <h5 class="text-center pacifico my-1">Parque Nacional Fiordland (Nova Zelândia)</h5>
+                                                            <p>
+                                                                O Parque Nacional Fiordland, localizado na Ilha Sul da Nova Zelândia, abriga alguns dos fiordes mais espetaculares do mundo, incluindo o famoso Doubtful Sound. Com montanhas imponentes, florestas densas e lagos serenos, o parque é um paraíso para caminhadas, passeios de barco e observação da vida selvagem. A beleza intocada da região atrai aventureiros e amantes da natureza de todo o mundo.
+                                                            </p>    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="pacifico text-center">
+                        Fale <span>Conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div>
+                                <label class="form-label fw-bold marron mt-3" for="nome">Seu nome</label>
+                                <input class="form-control" type="text" id="nome">
+                            </div>
+                            <div>
+                                <label class="form-label fw-bold marron mt-3" for="tel">Seu telefone</label>
+                                <input class="form-control" type="tel" id="tel">
+                            </div>
+                            <div>
+                                <label class="form-label fw-bold marron mt-3" for="email">Seu e-mail</label>
+                                <input class="form-control" type="email" id="email">
+                            </div>
+                            <div>
+                                <label class="form-label fw-bold marron mt-3" for="mensagem">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button class="btn fw-bold mt-3">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="pacifico section-title fs-4 marron">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook marron"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="bi bi-instagram marron"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp marron"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="pacifico section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    Rua das Palmeiras Douradas, 789
+                                    Bairro Vista Mar, Rio de Janeiro - RJ
+                                    Brasil
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="./LIB/bootstrap.bundle.min.js"></script>
+</html>

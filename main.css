@@ -1,0 +1,98 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.pacifico{
+    font-family: Pacifico, cursive;
+}
+
+header{
+    background-color: #6ffaad;
+}
+
+.marron,
+.marron:hover,
+.nav-link{
+    color: #462313;
+}
+
+#menu .nav-link.active,
+#fale-conosco button{
+    background-color: #462313;
+    color: #FFF;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 760px;
+}
+
+.carousel-caption h5{
+    border-bottom:5px solid rgba(111, 250, 173,0.5);
+    width: 25%;
+    font-weight: bold;
+}
+
+.carousel-caption{
+    align-items: center;
+}
+
+h2 span, h4 span, h5{
+    color: #462313;
+}
+
+#sobre-nos,
+#destinos-semanais{
+    background-color: #d2e6db;
+}
+
+.text-colored, .text-colored:hover{
+    color: #462313;
+}
+
+#desperte-a-aventura button.active,
+#destinos-semanais button.active{
+    background-color: #6ffaad;
+    color: #462313;
+}
+
+.green-color{
+    color: #6ffaad;
+}
+
+p{
+    width: 100%;
+    text-align: justify;
+}
+
+#fale-conosco,
+#desperte-a-aventura{
+    background-color: #e4d9d5;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.branco{
+    color: #e4d9d5;
+}
+
+    #desperte-a-aventura img{
+        width: 292.66px;
+        height: 195.02px;
+    }
+    
+    #destinos-semanais img{
+        width: 525px;
+        height: 300px;
+    }
+    
+    #destinos-semanais h5, #destinos-semanais p{
+        max-width: 525px;
+    }
